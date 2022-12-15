@@ -27,6 +27,8 @@
         ";
     }else
     echo $_SERVER['SERVER_NAME'];
+    //Test image from steam
+    echo '<img src="https://steamuserimages-a.akamaihd.net/ugc/1783966736434772570/9DC9EAE4E950CA7616ED51E4C4E7F2E1921EDAB1/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="img">';
 ?>
 
 </body>
