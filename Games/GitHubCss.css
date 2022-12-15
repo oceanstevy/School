@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+div {
+    background-color: yellowgreen;
+    height: 60px;
+    width: 100px;
+    padding-left: 10px;
+    border: black solid 4px;
+    margin-right: 5px;
+    float: left;
+}
+div p{
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+}
