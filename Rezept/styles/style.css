@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*imported webfont*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fugaz+One&family=Monoton&family=Pacifico&family=Press+Start+2P&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Cardo&display=swap');
+
+@font-face {
+    /*webfont*/
+    font-family: 'octin_spraypaint_b_bl';
+    font-display: swap;
+    src: url('../fonts/Webfonts/octinspraypaint_bblack_macroman/octin_spraypaint_b_bl-webfont.woff2') format('woff2'),
+    url('../fonts/Webfonts/octinspraypaint_bblack_macroman/octin_spraypaint_b_bl-webfont.woff') format('woff');
+}
+
+
+div.background {
+
+    background-color: #e7e7e7;
+    height: 100%;
+}
+
+main.container-main {
+    height: 100vh;
+    width: 75%;
+    background-color: whitesmoke;
+
+}
