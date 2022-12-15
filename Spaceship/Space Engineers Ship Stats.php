@@ -17,12 +17,12 @@
 <?php
     if ($_SERVER['SERVER_NAME'] == "foxi.ltam.lu" ){
         echo"
-            https://foxi.ltam.lu/1TPIF2/gromi088/public/WEBAP1/Space%20Engineers%20Ship%20Stats.php/[Name]
+            https://foxi.ltam.lu/1TPIF2/gromi088/public/WEBAP1/Stats/{Name}
             </p><br>
         ";
     }elseif ($_SERVER['SERVER_NAME'] == "http://89.58.47.144"){
         echo"
-            https://89.58.47.144/1TPIF2/WEBAP/API_Collection/Spaceship/Space%20Engineers%20Ship%20Stats.php/[Name]
+            https://89.58.47.144/1TPIF2/WEBAP/API_Collection/Spaceship/Stats/{Name}
             </p><br>
         ";
     }else
