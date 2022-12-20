@@ -3,12 +3,13 @@ body{
 }
 div {
     background-color: yellowgreen;
-    height: 60px;
+    height: 65px;
     width: 100px;
     padding-left: 10px;
-    border: black solid 4px;
-    margin-right: 5px;
+    border: green solid 3px;
+    margin-right: 10px;
     float: left;
+    border-radius: 12px;
 }
 div p{
     color: white;
