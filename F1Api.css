@@ -3,10 +3,6 @@ header{
     flex-direction:column;
 }
 
-header > h1{
-    color:white;
-    font-size: 60px;
-}
 
 header > img{
     display:block;
@@ -16,22 +12,22 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*background-color:rgba(85,85,85,0.9);*/
     background-color: darkred;
     color:white;
     position: sticky;
     top: 0;
     border-radius: 15px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 li {
     float: left;
+    font-size: 20px;
 }
 
 li a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     list-style-type: none;

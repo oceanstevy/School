@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Index der F1 Api Seite</title>
-        <link rel="stylesheet" href="F1Api.css">
+        <link rel="stylesheet" type="text/css" href="F1Api.css">
     </head>
     <body>
     <?php

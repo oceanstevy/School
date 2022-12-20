@@ -28,26 +28,26 @@
         <h3><?php echo $serverName?>/F1/races</h3>
         <p>"id": 1</p>
         <p>"name": "Australian Grand Prix"</p>
-        <p>"location": "Melbourne Grand Prix Circuit, Melbourne, Australia"</p>
+        <p>"location": "Melbourne Grand Prix Circuit, Melbourne, Australia"</p><br>
         <p>"id": 2</p>
         <p>"name": "Bahrain Grand Prix"</p>
         <p>"location": "Bahrain International Circuit, Sakhir, Bahrain"</p>
         <h2>Seasons</h2>
         <h3><?php echo $serverName?>/F1/seasons</h3>
         <p>"id": 1</p>
-        <p>"year": 1950</p>
+        <p>"year": 1950</p><br>
         <p>"id": 2</p>
         <p>"year": 1951</p>
         <h2></h2>
         <h3><?php echo $serverName?>/F1/seasons/{seasonId}/standings</h3>
         <p>"teamId": 1</p>
-        <p>"points": 739</p>
+        <p>"points": 739</p><br>
         <p>"teamId": 2 </p>
         <p>"points": 634</p>
         <h3><?php echo $serverName?>/F1/races/{raceId}/results</h3>
         <p>"driverId": 1</p>
         <p>"teamId": 1</p>
-        <p>"position": 1</p>
+        <p>"position": 1</p><br>
         <p>"driverId": 2</p>
         <p>"teamId": 2</p>
         <p>"position": 2</p>
