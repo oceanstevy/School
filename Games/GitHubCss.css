@@ -16,3 +16,7 @@ div p{
     font-style: oblique;
     font-weight: bold;
 }
+span{
+    font-weight: bold;
+    color: limegreen;
+}
