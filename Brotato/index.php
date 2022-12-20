@@ -28,6 +28,9 @@
         padding: 0 3%;
     }
 </style>
+<?php
+$Server = '';
+?>
 <body>
 <div id="Beschreibung">
     <section>
