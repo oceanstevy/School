@@ -1,0 +1,28 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url("https://images5.alphacoders.com/110/1108905.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.bg{
+ background-color: rgba(172, 226, 252, 0.77);
+    border:5px solid #72acfa;
+    border-radius: 50px;
+}
+.textbg{
+    background-color: #bbf2fd;
+    border: solid 3px #85cdea;
+    border-radius: 50px;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-bottom: 50px;
+}

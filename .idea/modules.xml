@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/School.iml" filepath="$PROJECT_DIR$/.idea/School.iml" />
+      <module fileurl="file://D:/Website/.idea/Website.iml" filepath="D:/Website/.idea/Website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../xampp/htdocs/test/.idea/test.iml" filepath="$PROJECT_DIR$/../../../../../xampp/htdocs/test/.idea/test.iml" />
+    </modules>
+  </component>
+</project>

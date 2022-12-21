@@ -8,6 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Genshin</p>
+<?php
+echo $_SERVER['SERVER_NAME'];
+?>
+ <h1>Genshin</h1>
+
 </body>
+
 </html>
+
+
