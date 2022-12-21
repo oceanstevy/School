@@ -11,12 +11,13 @@ div {
     float: left;
     border-radius: 12px;
 }
+span{
+    color: limegreen;
+    font-style: oblique;
+    font-weight: bold;
+}
 div p{
     color: white;
     font-style: oblique;
     font-weight: bold;
-}
-span{
-    font-weight: bold;
-    color: limegreen;
 }
