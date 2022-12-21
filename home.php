@@ -8,48 +8,44 @@
 ?>
         <h2>Teams</h2>
         <h3><?php echo $serverName?>/F1/teams</h3>
+    <div id="box">
         <p>"id": 0</p>
         <p>"name": "Mercedes"</p>
         <p>"constructor": "Mercedes-AMG Petronas Formula One Team"</p><br>
         <p>"id": 1</p>
         <p>"name": "Red Bull Racing"</p>
         <p>"constructor": "Red Bull Racing Honda"</p>
+    </div>
 
         <h2>Drivers</h2>
         <h3><?php echo $serverName?>/F1/drivers</h3>
+    <div id="box">
         <p>"id": 1</p>
         <p>"name": "Lewis Hamilton"</p>
         <p>"teamId": 1</p><br>
         <p>"id": 2</p>
         <p>"name": "Max Verstappen"</p>
         <p>"teamId": 2</p>
+    </div>
 
         <h2>Races</h2>
         <h3><?php echo $serverName?>/F1/races</h3>
+    <div id="box">
         <p>"id": 1</p>
         <p>"name": "Australian Grand Prix"</p>
         <p>"location": "Melbourne Grand Prix Circuit, Melbourne, Australia"</p><br>
         <p>"id": 2</p>
         <p>"name": "Bahrain Grand Prix"</p>
         <p>"location": "Bahrain International Circuit, Sakhir, Bahrain"</p>
+    </div>
+
         <h2>Seasons</h2>
         <h3><?php echo $serverName?>/F1/seasons</h3>
+    <div id="box">
         <p>"id": 1</p>
-        <p>"year": 1950</p><br>
+        <p>"year": 2021</p><br>
         <p>"id": 2</p>
-        <p>"year": 1951</p>
-        <h2></h2>
-        <h3><?php echo $serverName?>/F1/seasons/{seasonId}/standings</h3>
-        <p>"teamId": 1</p>
-        <p>"points": 739</p><br>
-        <p>"teamId": 2 </p>
-        <p>"points": 634</p>
-        <h3><?php echo $serverName?>/F1/races/{raceId}/results</h3>
-        <p>"driverId": 1</p>
-        <p>"teamId": 1</p>
-        <p>"position": 1</p><br>
-        <p>"driverId": 2</p>
-        <p>"teamId": 2</p>
-        <p>"position": 2</p>
+        <p>"year": 2022</p>
     </div>
+    
 </main>
