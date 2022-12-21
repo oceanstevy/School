@@ -28,7 +28,7 @@ CREATE TABLE tblStats(
 CREATE TABLE tblCharacterStartStats(
     fiCharacter INT,
     fiStats INT,
-    dtCount TINYINT,
+    dtCount SMALLINT,
     PRIMARY KEY (fiCharacter,fiStats)
 );
 CREATE TABLE tblCharacterStartWeapon(
@@ -46,7 +46,7 @@ CREATE TABLE tblCharacterStartItem(
 CREATE TABLE tblWeaponStats(
     fiWeapon    INT,
     fiStats INT,
-    dtCountProzent TINYINT,
+    dtCountProzent SMALLINT,
     PRIMARY KEY (fiWeapon,fiStats)
 );
 
