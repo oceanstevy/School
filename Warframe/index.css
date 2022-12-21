@@ -1,0 +1,32 @@
+html {
+    background: url(Warframe.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+}
+
+.middleDiv {
+    position: relative;
+    text-align: center;
+}
+
+#linkLabel {
+    font-size: 16px;
+    color: white;
+    background-color: #5052b5;
+    border: solid black 1px;
+}
+
+#link {
+    font-size: 16px;
+    width: 500px;
+    color: white;
+    background-color: #5052b5;
+    border: solid black 1px;
+}
