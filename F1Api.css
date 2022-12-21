@@ -40,4 +40,6 @@ li a:hover {
     background-color: lightgray;
     border: 1px solid black;
     padding: 20px;
+    border-radius: 20px;
+    margin-right:70%;
 }
