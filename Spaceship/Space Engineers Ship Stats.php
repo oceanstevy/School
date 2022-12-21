@@ -10,28 +10,40 @@
         body{
             margin-left: 10%;
             margin-right: 10%;
-            background-blend-mode: screen;
-            background: linear-gradient(to right, #e6ffe6, #b3e0ff);
+            background-image: url("https://cdn5.idcgames.com/storage/image/1282/game_home_bg_section_2/default.jpg");
             min-width: 1000px;
         }
         #Info{
-            color: dimgrey;
+            background: rgba(200,200,200,0.8);
+            color: dimgray;
             font-weight: bolder;
             font-family: Monocraft;
             margin: 5% 20% 5% 20%;
             padding: 10% 5% 10% 5%;
             text-align: center;
-            backdrop-filter: sepia(35%);
             border-radius: 25px;
 
+
+        }
+        h1{
+            color: floralwhite;
+            font-weight: bolder;
+            font-family: Monocraft;
+            text-align: center;
+        }
+        #Logo{
+            position: absolute;
+            float: left;
+            margin-left: -10%;
         }
     </style>
 </head>
 <body>
-<div id="Info">
+<img src="https://images.launchbox-app.com/13a7eff1-c242-4efd-94fa-107af8be0a2e.png" alt="SE Logo" id="Logo">
     <h1>
         Space Engineers Ship stats
     </h1>
+<div id="Info">
     <p>
         <h2>To get a Ships stats use following URL:</h2>
 
@@ -51,8 +63,9 @@
         //Test image from steam
         echo "Server Error";
     }
-?>
-
+?>     <p> This API is meant to display ship stats like the weight or armaments.
+        <br> Have fun engineering
+       </p>
 </div>
 </body>
 </html>
