@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mein RSS Reader</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+  // Ausführen nach dem Laden der Seite:
+  $(function(){
+
+    let rssFeed = "feed.xml";                              // Alternative 1: lokale Datei
+    //let rssFeed= "https://www.rtl.lu/rss/headlines";     // Alternative 2: rtl.lu News
+
+    $.get(rssFeed, function(data) {
+
+      // XML parsen mittels der jQuery find() Methode
+      $(data).find("item").each(function() {
+        let title = $(this).find("title").text();
+        let date = $(this).find("pubDate").text();
+        let link = $(this).find("link").text();
+        let description = $(this).find("description").text();
+
+        // Den Feed dem Div hinzufügen
+        $("#feed").append("<div class='item'><a href='" + link + "'><h3>" + title + "</h3></a><p>" + date + "<br>"+ description + "</p></div>");
+      });
+    }, "xml");
+
+  });
+</script>
+
+</head>
+<body>
+    <h1>Mein RSS Reader</h1>
+    <div id="feed"></div>
+</body>
+</html>
